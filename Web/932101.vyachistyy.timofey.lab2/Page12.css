@@ -1,0 +1,30 @@
+p{
+	margin:0px;
+}
+ul{
+	min-width:150px;
+	width:20%;
+	background-color:bisque;
+	line-height:1.3em;
+	box-sizing:border-box;
+	padding-top:15px;
+	padding-bottom:15px;
+	margin:0px;
+	float:left;
+}
+#aquaDiv{
+	width:100%;
+	background-color:aqua;
+	border:1px;
+	border-color:green;
+	border-style:solid;
+	position:relative;
+}
+#center{
+	display:inline-block;
+	width:79%;
+	line-height:1.2em;
+	background-color:darkgray;
+	margin-left:5px;
+	margin-right:5px;
+}

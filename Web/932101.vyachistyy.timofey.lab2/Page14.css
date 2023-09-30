@@ -1,0 +1,45 @@
+p{
+	margin:0px;
+}
+ul{
+	min-width:150px;
+	width:20%;
+	background-color:bisque;
+	line-height:1.3em;
+	box-sizing:border-box;
+	padding-top:15px;
+	padding-bottom:15px;
+	margin:0px;
+	float:left;
+}
+#aquaDiv{
+	width:100%;
+	background-color:aqua;
+	border:1px;
+	border-color:green;
+	border-style:solid;
+	position:relative;
+}
+#center{
+	display:inline-block;
+	width:80%;
+	line-height:1.2em;
+	background-color:darkgray;
+}
+@media (max-width: 1250px){
+ul{
+	width:100%;
+	height:20px;
+	padding-top:0px;
+	padding-bottom:0px;
+	margin-top:20px;
+	margin-bottom:20px;
+	list-style:none;
+}
+li{
+	display:inline-block;
+}
+#center{
+	width:100%;
+}
+}

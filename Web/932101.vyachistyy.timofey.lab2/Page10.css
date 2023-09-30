@@ -1,0 +1,15 @@
+#topBlock{
+	float:left;
+	background-color:aquamarine;
+	margin:15px;
+	width:200px;
+	height:100px;
+}
+p{
+	margin:0px;
+}
+#bottomBlock{
+	width:auto;
+	clear:both;
+	background-color:bisque;
+}

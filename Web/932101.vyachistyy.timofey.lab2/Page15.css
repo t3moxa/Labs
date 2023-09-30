@@ -1,0 +1,13 @@
+p{
+	margin:0px;
+}
+.inlineBlock{
+	width:200px;
+	height:100px;
+	background-color:aquamarine;
+	display:inline-block;
+	margin:15px;
+}
+footer{
+	background-color:bisque;
+}

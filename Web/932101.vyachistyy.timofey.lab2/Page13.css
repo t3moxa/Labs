@@ -1,0 +1,38 @@
+p{
+	margin:0px;
+}
+ul{
+	width:20%;
+	background-color:bisque;
+	line-height:1.3em;
+	box-sizing:border-box;
+	padding-top:15px;
+	padding-bottom:15px;
+	margin:0px;
+	clear:right;
+	float:left;
+	padding-left:30px;
+}
+#aquaDiv{
+	width:100%;
+	background-color:aqua;
+	border:1px;
+	border-color:green;
+	border-style:solid;
+	position:relative;
+	min-width:520px;
+}
+#center{
+	min-width:400px;
+	display:inline-block;
+	width:80%;
+	line-height:1.2em;
+	background-color:darkgray;
+}
+#imaged{
+	float:right;
+	width:50%;
+}
+.clearP{
+	clear:both;
+}

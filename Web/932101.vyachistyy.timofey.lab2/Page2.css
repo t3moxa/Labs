@@ -1,0 +1,44 @@
+*{
+margin:0px;
+}
+header{
+	background-color:#EAEAEA;
+	height:80px;
+}
+#left{
+	width:25%;
+	background-color:#C8FC98;
+	float:left;
+	line-height:1.3em;
+}
+#right{
+	background-color:#FDE95E;
+	float:right;
+	line-height:1.3em;
+	width:200px;
+}
+#center{
+	width:calc(100% - 200px);
+	line-height:1.2em;
+}
+.importantText{
+	color:red;
+	font-style:italic;
+}
+h3{
+	float:left;
+}
+#indentP{
+	text-indent:5px;
+}
+a{
+	text-decoration: underline;
+	color:#FFFF80;
+}
+footer{
+	background-color:black;
+	height:25px;
+	text-align:center;
+	padding-top:5px;
+	clear:both;
+}

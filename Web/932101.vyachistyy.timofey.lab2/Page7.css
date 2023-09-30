@@ -1,0 +1,49 @@
+div{
+	color:white;
+}
+p{
+	margin:0px;
+}
+#staticDiv{
+	width:150px;
+	height:100px;
+	background-color:blueviolet;
+}
+#relativeDiv1{
+	width:150px;
+	height:100px;
+	background-color:darkred;
+	position:relative;
+	top:-17px;
+}
+#relativeDiv2{
+	width:150px;
+	height:100px;
+	background-color:peru;
+	position:relative;
+	top:-60px;
+	left:30px;
+}
+#relativeDiv3{
+	width:700px;
+	height:500px;
+	background-color:indianred;
+	position:relative;
+	top:-20px;
+}
+#absoluteDiv{
+	width:350px;
+	height:250px;
+	background-color:indigo;
+	position:absolute;
+	top:150px;
+	right:0px;
+}
+#fixedDiv{
+	width:100px;
+	height:100px;
+	background-color:forestgreen;
+	position:fixed;
+	bottom:0px;
+	right:0px;
+}

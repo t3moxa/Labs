@@ -1,0 +1,15 @@
+#center{
+	background-color:aqua;
+	width:100%;
+	height:265px;
+	border:1px;
+	border-color:green;
+	border-style:solid;
+	position:relative;
+}
+#imaged{
+	float:right
+}
+p{
+	margin:0px;
+}

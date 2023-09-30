@@ -1,0 +1,43 @@
+p{
+	margin:0px;
+}
+ul{
+	width:200px;
+	background-color:bisque;
+	line-height:1.3em;
+	box-sizing:border-box;
+	padding-top:15px;
+	padding-bottom:15px;
+	margin:0px;
+}
+section{
+	position:relative;
+	max-width:100%;
+}
+#leftDiv{
+	width:200px;
+	background-color:aqua;
+	float:left;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+}
+#center{
+	position:relative;
+	left:200px;
+	width:calc(100% - 200px);
+	line-height:1.2em;
+	background-color:darkgray;
+}
+a{
+	text-decoration: underline;
+	color:#FFFF80;
+}
+footer{
+	background-color:limegreen;
+	height:50px;
+	width:100%;
+	clear:both;
+	position:absolute;
+	bottom:0px;
+}

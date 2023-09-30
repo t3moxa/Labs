@@ -1,0 +1,22 @@
+#greenBlock{
+	margin-left:auto;
+	margin-right:auto;
+	background-color:green;
+	color:white;
+	max-width:500px;
+	min-width:300px;
+	line-height:1.2em;
+}
+#blueBlock{
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:30px;
+	background-color:blue;
+	color:white;
+	max-width:600px;
+	min-width:300px;
+	padding:25px;
+	border:25px;
+	border-color:blue;
+	border-style:solid;
+}
