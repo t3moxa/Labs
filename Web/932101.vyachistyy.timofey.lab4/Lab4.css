@@ -1,0 +1,162 @@
+*{
+	margin:0px;
+	font-family:Arial;
+}
+::selection{
+	background-color:#e1e5eb;
+	color:green;
+}
+body{
+	background-color:#edeef0;
+}
+section{
+	width:680px;
+	position:relative;
+	left:calc(50% - 450px);
+	box-sizing:border-box;
+}
+.mainDiv{
+	background-color:white;
+	border-radius:10px;
+	margin:15px;
+	width:420px;
+	margin-left:auto;
+	margin-right:auto;
+	padding:20px;
+	box-shadow: 0px 0px 3px #d0d0d0;
+	float:right;
+}
+.mainDiv p{
+	text-align:justify;
+}
+.mainDivHeader{
+	border-bottom:3px solid #e1e5eb;
+	margin-bottom:7px;
+}
+.mainDivHeader h4{
+	padding-top:5px;
+	padding-bottom:5px;
+}
+.mainDivFooter{
+	margin-top:5px;
+	border-top:3px solid #e1e5eb;
+	padding-top:5px;
+	height:15px;
+}
+.likeButton{
+	margin-top:4px;
+	float:left;
+	color:#507299;
+}
+.commentButton{
+	margin-top:4px;
+	float:right;
+	color:#507299;
+}
+a:hover{
+	text-decoration:underline;
+}
+.mainDiv img{
+	width:100%;
+	height:100%;
+}
+#logo{
+	margin-left:15%;
+	margin-top:10px;
+}
+header{
+	background-color:#507299;
+	height:50px;
+}
+header div{
+	padding-top:14px;
+	margin-bottom:auto;
+}
+nav{
+	float:left;
+	position:absolute;
+	color:#507299;
+	box-sizing:border-box;
+	height:100%;
+}
+nav ul{
+	width:200px;
+	list-style:none;
+	padding:0px 10px;
+}
+nav li{
+	margin-top:0.5em;
+	padding:7px;
+	user-select:all;
+}
+li:hover{
+	background-color:#e1e5eb;
+	color:#507299;
+}
+li::selection{
+	background-color:#e1e5eb;
+	color:#507299;
+}
+aside{
+	position:fixed;
+	right:7%;
+	top:50px;
+}
+aside div{
+	background-color:white;
+	border-radius:10px;
+	margin-top:15px;
+	padding:10px;
+	width:140px;
+	height:170px;
+	box-shadow: 0px 0px 3px #d0d0d0
+}
+aside div p{
+	margin-top:10px;
+	background-color:#edeef0;
+}
+aside div h4{
+	margin:5px;
+	margin-top:10px;
+}
+footer{
+	color:gray;
+	text-align:center;
+	background-color:white;
+	font-family:Arial;
+	clear:both;
+	height:30px;
+	width:100%;
+}
+footer div{
+	padding-top:7px;
+	margin-bottom:auto;
+}
+@media (max-width: 932px){
+aside{
+	display:none;
+}
+section{
+	left:0px;
+}
+}
+@media (max-width: 551px){
+section{
+	width:460px;
+	left:20px;
+}
+nav{
+	float:none;
+	position:static;
+}
+nav ul{
+	width:100%;
+	text-align:center;
+}
+nav li{
+	display:inline-block;
+}
+.mainDiv:last-of-type{
+	margin-bottom:40px;
+}
+}
