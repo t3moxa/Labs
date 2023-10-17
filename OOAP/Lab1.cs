@@ -1,6 +1,6 @@
 public abstract class Character
 {
-  protected name String;
+  protected name string;
   protected strength int;
   protected dexterity int;
   protected endurance int;
@@ -11,29 +11,29 @@ public abstract class Character
   protected light int;
   protected dark int;
   protected equippedPerks Perk[];
-  protected equippedSpells Spell[];
-  protected equippedEquipment Equipment[];
+  protected equippedSpells Spell[9];
+  protected equippedEquipment Equipment[6];
   public CalculateStats()
   {
     
   }
   public Equip(entity basicDevEntity)
   {
-    
+    //ченить умное с typeof и installationRemoval из BasicDevEntity
   }
 }
 public class Player: Character
 {
  public SaveGame()
-{
-}
+{}
 }
 public class Enemy: Character
 {
+
 }
-public abstract class basicDevEntity
+public abstract class BasicDevEntity
 {
-  protected name String;
+  protected name string;
   protected minStrength int;
   protected minDexterity int;
   protected minEndurance int;
@@ -46,9 +46,9 @@ public abstract class basicDevEntity
     return ((character.GetStrength >= minStrength)&(character.GetDexterity >= minDexterity)&(character.GetEndurance >= minEndurance)&(character.GetMasteryOfFire >= minMasteryOfFire)&(character.GetMasteryOfWater >= minMasteryOfWater)&(character.GetMasteryOfEarth >= minMasteryOfEarth)&(character.GetMasteryOfAir) >= minMasteryOfAir))
   }
   public InstallationRemoval()
-  {
-  }
+  {}
   public ApplyEffect()
+  {}
 }
 public class Perk: basicDevEntity
 {
@@ -66,5 +66,11 @@ public class Spell: basicDevEntity
 }
 public class Equipment: basicDevEntity
 {
-  private BodyPart String;
+  private BodyPart int; //с учётом того что хранится это дело в массиве, так будет проще
+}
+public class Status //надо как-то привязать к Character'у???
+{
+  private duration int;
+  public ApplyStatus(character Character)
+  {}
 }
