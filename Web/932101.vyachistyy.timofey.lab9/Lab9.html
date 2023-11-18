@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+	<meta charset="utf-8">
+	<title>Лабораторная Работа 9</title>
+	<link rel="stylesheet" type="text/css" href="Lab9.css">
+</head>
+<body>
+	<table>
+		<tr>
+			<td colspan="5"><input type="text" id="result" value="0"></td>
+		</tr>
+		<tr>
+			<td><input type="button" value="7" onclick="result.value += '7'"></td>
+			<td><input type="button" value="8" onclick="result.value += '8'"></td>
+			<td><input type="button" value="9" onclick="result.value += '9'"></td>
+			<td><input type="button" value="/" onclick="result.value += '/'"></td>
+			<td><input type="button" value="C" onclick="result.value = result.value.slice(0,0)"></td>
+		</tr>
+		<tr>
+			<td><input type="button" value="4" onclick="result.value += '4'"></td>
+			<td><input type="button" value="5" onclick="result.value += '5'"></td>
+			<td><input type="button" value="6" onclick="result.value += '6'"></td>
+			<td><input type="button" value="*" onclick="result.value += '*'"></td>
+			<td><input type="button" value="<-" onclick="result.value = result.value.slice(0,-1)"></td>
+		</tr>
+		<tr>
+			<td><input type="button" value="1" onclick="result.value += '1'"></td>
+			<td><input type="button" value="2" onclick="result.value += '2'"></td>
+			<td><input type="button" value="3" onclick="result.value += '3'"></td>
+			<td><input type="button" value="-" onclick="result.value += '-'"></td>
+			<td rowspan="2"><input type="button" value="=" onclick="result.value = eval(result.value)" id="equal"></td>
+		</tr>
+		<tr>
+			<td colspan="2"><input type="button" value="0" onclick="result.value += '0'" id="zero"></td>
+			<td><input type="button" value="." onclick="result.value += '.'"></td>
+			<td><input type="button" value="+" onclick="result.value += '+'"></td>
+		</tr>
+	</table>
+</body>
+</html>
