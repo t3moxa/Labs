@@ -15,14 +15,17 @@ document.addEventListener('DOMContentLoaded', function() {
 
     saveButton.addEventListener('click', function() {
         var inputs = document.querySelectorAll('.InputLine');
-        var data = {};
+		var data = "{";
         inputs.forEach(function(input) {
             var keys = input.querySelectorAll('input[type="text"]');
-            data[keys[0].value] = keys[1].value;
+			console.log(keys[0]);
+			data += '"'+keys[0].value+'"'+':'+'"'+keys[1].value+'"'+',';
         });
+		data = data.slice(0,-1);
+		data += "}";
         console.log(data);
         var div = document.createElement("div");
-        div.innerHTML = JSON.stringify(data);
+        div.innerHTML = data;
         document.body.appendChild(div);
     });
 
